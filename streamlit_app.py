@@ -22,7 +22,7 @@ st.markdown('## Summary', unsafe_allow_html=True)
 today = datetime.date.today()
 First_Job_Date = datetime.datetime(2017, 2, 1)
 
-result1 = abs(today- First_Job_Date).years
+result1 = abs(today- First_Job_Date)
 
 
 col1, col2, col3 = st.columns(3)
