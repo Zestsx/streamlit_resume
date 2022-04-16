@@ -99,7 +99,7 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt('**Senior People Analytics Analyst / People Analytics Analyst**, JLL, Singapore','Dec 2017 - Present')
+txt('**Senior People Analytics Analyst / People Analytics Analyst**, JLL, SGP','Dec 2017 - Present')
 st.markdown('''
 - Architected and built global/ regional Tableau Dashboards to generate actionable human capital insights and metrics for JLL (Headcount of 100k) to reduce reporting time 
 - Conducted Statistical Analysis using R on HR Research Projects to determine predictive validity and association 
@@ -111,7 +111,7 @@ st.markdown('''
 - Configured and scheduled custom Workday reports for Stakeholders with Report Writer in Workday
 ''')
 
-txt('**Associate (People Advisory Services)**, ERNST & YOUNG, Singapore','Feb 2017 - Dec 2017')
+txt('**Associate (People Advisory Services)**, ERNST & YOUNG, SGP','Feb 2017 - Dec 2017')
 st.markdown('''
 - Developed a spreadsheet survey with Excel to poll opinions on generic skills relevancy for 100 job roles in a growing sector, alongside how-to-guide deck and communication plans to survey participants 
 - Conducted Wage Study Analysis of 50 job roles in Singapore Food Service Sector using Excel formulas (Array, Averageif, Sumif, Percentile, Index & Match) 
@@ -136,12 +136,17 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Master of Technology in Enterprise Business Analytics**, *National University of Singapore*, Singapore','2022-Current')
+txt('**Master of Technology in Enterprise Business Analytics**, *National University of Singapore*, SGP','2022-Current')
 st.markdown('''
 
 ''')
 
-txt('**Bachelors of Science (Economics)**, *Singapore Management University*, Singapore','2012-2016')
+txt('**Specialist Diploma in Business Analytics**, *Temasek Polytechnic*, SGP','2018–2019')
+st.markdown('''
+''')
+
+
+txt('**Bachelors of Science (Economics)**, *Singapore Management University*, SGP','2012-2016')
 st.markdown('''
 - GPA: `3.47 / 4.00`
 ''')
