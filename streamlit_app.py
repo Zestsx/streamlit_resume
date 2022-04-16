@@ -19,7 +19,7 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 
 
-today = date.today()
+today = datetime.date.today()
 First_Job_Date = datetime.datetime(2017, 2, 1)
 
 result1 = abs(today- First_Job_Date).years
