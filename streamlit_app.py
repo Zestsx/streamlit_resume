@@ -26,9 +26,13 @@ Second_Job_Date = datetime.date(2017, 12, 18)
 TWEP = abs(today- First_Job_Date).total_seconds()    
 PPWEP = abs(today- Second_Job_Date).total_seconds()  
 
-TWEP = divmod(TWEP, 31536000)[1]
+TWEP = divmod(TWEP, 31536000)[0]
 
-PPWEP = divmod(PPWEP, 31536000)[1]
+print(TWEP)
+
+PPWEP = divmod(PPWEP, 31536000)[0]
+
+print(PPWEP)
 
 
 
