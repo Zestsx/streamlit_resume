@@ -15,6 +15,13 @@ image = Image.open('Spencer.jpg')
 st.image(image, width=150)
 
 st.markdown('## Summary', unsafe_allow_html=True)
+
+
+col1, col2, col3 = st.columns(3)
+col1.metric("Years of Working Experience", "5")
+col2.metric("People Analytics Experience", "4")
+col3.metric("Masters Graduate Date", "2024")
+
 st.info('''
 - Data Analyst with 4+ years of experience in people analytics. 
 - Experienced in data analytics tools & techniques including statistical analysis, dashboarding and machine learning 
