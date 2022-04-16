@@ -136,17 +136,17 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Master of Technology in Enterprise Business Analytics**, *National University of Singapore*, SGP','2022-Current')
+txt('**Master of Technology (Business Analytics)**, *National University of Singapore*, SGP','2022-Current')
 st.markdown('''
 
 ''')
 
-txt('**Specialist Diploma in Business Analytics**, *Temasek Polytechnic*, SGP','2018–2019')
+txt('**Specialist Diploma (Business Analytics)**, *Temasek Polytechnic*, SGP','2018–2019')
 st.markdown('''
 ''')
 
 
-txt('**Bachelors of Science (Economics)**, *Singapore Management University*, SGP','2012-2016')
+txt('**Bachelor of Science (Economics)**, *Singapore Management University*, SGP','2012-2016')
 st.markdown('''
 - GPA: `3.47 / 4.00`
 ''')
