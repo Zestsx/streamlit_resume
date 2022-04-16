@@ -28,37 +28,6 @@ st.info('''
 ''')
 
 #####################
-# Navigation
-
-st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">', unsafe_allow_html=True)
-
-st.markdown("""
-<nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://www.linkedin.com/in/chew-shi-xiang-spencer-4a9a0582/" target="_blank">Spencer Chew</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link disabled" href="/">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#education">Education</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#work-experience">Work Experience</a>
-      </li>
-      <li class="nav-item">
-      <li class="nav-item">
-        <a class="nav-link" href="#social-media">Social Media</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-""", unsafe_allow_html=True)
-
-#####################
 # Custom function for printing text
 def txt(a, b):
   col1, col2 = st.columns([4,1])
@@ -89,6 +58,26 @@ def txt4(a, b, c):
     st.markdown(b)
   with col3:
     st.markdown(c)
+
+
+def txt5(a, b):
+  col1, col2 = st.columns([1,4])
+  with col1:
+    st.markdown(f'`{a}`')
+  with col2:
+    st.markdown(b)
+
+#####################
+# SideBar
+
+with st.sidebar:
+    st.markdown('''
+## Social Media
+''')
+txt5('LinkedIn', 'https://www.linkedin.com/in/chew-shi-xiang-spencer-4a9a0582/')
+txt5('GitHub', 'https://github.com/Zestsx')
+txt5('Tableau', 'https://public.tableau.com/app/profile/spencer6275')
+
 
 #####################
 st.markdown('''
