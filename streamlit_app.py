@@ -70,14 +70,6 @@ def txt5(a, b):
 #####################
 # SideBar
 
-with st.sidebar:
-    st.markdown('''
-## Social Media
-''')
-txt5('LinkedIn', 'https://www.linkedin.com/in/chew-shi-xiang-spencer-4a9a0582/')
-txt5('GitHub', 'https://github.com/Zestsx')
-txt5('Tableau', 'https://public.tableau.com/app/profile/spencer6275')
-
 
 #####################
 st.markdown('''
