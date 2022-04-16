@@ -19,10 +19,14 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 
 
-today = datetime.date.today()
-First_Job_Date = datetime.datetime(2017, 2, 1)
+today = date.today()
+First_Job_Date = datetime.date(2017, 2, 1)
 
 result1 = abs(today- First_Job_Date)
+
+result1= divmod(result1, 31536000)[0]
+
+print(result1)
 
 
 col1, col2, col3 = st.columns(3)
