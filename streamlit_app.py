@@ -21,17 +21,20 @@ st.markdown('## Summary', unsafe_allow_html=True)
 
 today = date.today()
 First_Job_Date = datetime.date(2017, 2, 1)
+Second_Job_Date = datetime.date(2017, 12, 18)
 
-result1 = abs(today- First_Job_Date).total_seconds()    
+TWEP = abs(today- First_Job_Date).total_seconds()    
+PPWEP = abs(today- Second_Job_Date).total_seconds()  
 
-result1= divmod(result1, 31536000)[0]
+TWEP = divmod(TWEP, 31536000)[0]
 
-print(result1)
+PPWEP = divmod(TWEP, 31536000)[0]
+
 
 
 col1, col2, col3 = st.columns(3)
-col1.metric("Years of Working Experience", result1)
-col2.metric("People Analytics Experience", "4")
+col1.metric("Years of Working Experience", TWEP)
+col2.metric("People Analytics Experience", PPWEP)
 col3.metric("Masters Graduate Date", "2024")
 
 st.info('''
