@@ -1,5 +1,7 @@
 import streamlit as st
 from PIL import Image
+from datetime import date
+import datetime
 
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
@@ -7,7 +9,7 @@ with open("style.css") as f:
 #####################
 # Header 
 st.write('''
-# Spencer Chew (Shi Xiang).
+# Spencer Chew (Shi Xiang)
 ##### *Resume* 
 ''')
 
@@ -17,8 +19,14 @@ st.image(image, width=150)
 st.markdown('## Summary', unsafe_allow_html=True)
 
 
+today = date.today()
+First_Job_Date = datetime.datetime(2017, 2, 1)
+
+result1 = abs(today- First_Job_Date).years
+
+
 col1, col2, col3 = st.columns(3)
-col1.metric("Years of Working Experience", "5")
+col1.metric("Years of Working Experience", result1)
 col2.metric("People Analytics Experience", "4")
 col3.metric("Masters Graduate Date", "2024")
 
@@ -88,7 +96,7 @@ st.markdown('''
 - Configured and scheduled custom Workday reports for Stakeholders with Report Writer in Workday
 ''')
 
-txt('**Associate – People Advisory Services**, ERNST & YOUNG, Singapore','Feb 2017 – Dec 2017')
+txt('**Associate – People Advisory Services**, ERNST & YOUNG, Singapore','Feb 2017 - Dec 2017')
 st.markdown('''
 - Developed a spreadsheet survey with Excel to poll opinions on generic skills relevancy for 100 job roles in a growing sector, alongside how-to-guide deck and communication plans to survey participants 
 - Conducted Wage Study Analysis of 50 job roles in Singapore Food Service Sector using Excel formulas (Array, Averageif, Sumif, Percentile, Index & Match) 
