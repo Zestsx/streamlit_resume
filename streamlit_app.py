@@ -91,8 +91,8 @@ def txt5(a, b):
 st.sidebar.title("**Links**")
 
 st.sidebar.markdown("[Linkedin](https://www.linkedin.com/in/chew-shi-xiang-spencer-4a9a0582/)")
-st.sidebar.markdown("[Tableau](https://public.tableau.com/app/profile/spencer6275)!")
-st.sidebar.markdown("[GitHub](https://github.com/Zestsx)!")
+st.sidebar.markdown("[Tableau](https://public.tableau.com/app/profile/spencer6275)")
+st.sidebar.markdown("[GitHub](https://github.com/Zestsx)")
 
 #####################
 st.markdown('''
