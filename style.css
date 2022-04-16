@@ -6,6 +6,13 @@ h1 {
     text-align:center;
 }
 
+div.css-utzfat.e1tzin5v0 {
+    background-color: #EEEEEE;
+    border: 2px solid #CCCCCC;
+    padding: 5% 5% 5% 10%;
+    border-radius: 5px;
+}
+
 h5 {
     text-align:center;
 }
@@ -22,11 +29,4 @@ footer {
 }
 header {
     visibility: hidden;
-}
-
-div.css-utzfat.e1tzin5v0 {
-    background-color: #EEEEEE;
-    border: 2px solid #CCCCCC;
-    padding: 5% 5% 5% 10%;
-    border-radius: 5px;
 }
