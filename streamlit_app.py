@@ -28,7 +28,7 @@ PPWEP = abs(today- Second_Job_Date).total_seconds()
 
 TWEP = divmod(TWEP, 31536000)[0]
 
-PPWEP = divmod(TWEP, 31536000)[0]
+PPWEP = divmod(PPWEP, 31536000)[0]
 
 
 
