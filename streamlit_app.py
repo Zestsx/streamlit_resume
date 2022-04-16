@@ -22,7 +22,7 @@ st.markdown('## Summary', unsafe_allow_html=True)
 today = date.today()
 First_Job_Date = datetime.date(2017, 2, 1)
 
-result1 = abs(today- First_Job_Date)
+result1 = abs(today- First_Job_Date).total_seconds()    
 
 result1= divmod(result1, 31536000)[0]
 
