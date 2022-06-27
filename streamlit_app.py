@@ -106,7 +106,7 @@ st.markdown('''
 - Established reporting for Servicenow Platform using Servicenow Performance Analytics and Tableau
 ''')
 
-txt('**Senior People Analytics Analyst / People Analytics Analyst**, JLL, SGP','Dec 2017 - Present')
+txt('**Senior People Analytics Analyst / People Analytics Analyst**, JLL, SGP','Dec 2017 - Mar 2022')
 st.markdown('''
 - Architected and built global/ regional Tableau Dashboards to generate actionable human capital insights and metrics for JLL (Headcount of 100k) to reduce reporting time 
 - Conducted Statistical Analysis using R on HR Research Projects to determine predictive validity and association 
