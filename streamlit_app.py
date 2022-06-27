@@ -99,7 +99,7 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt('**People Analytics Business Partner (People Solutions & Experience) **, JLL, SGP','Mar 2022 - Present')
+txt('**People Analytics Business Partner (People Solutions & Experience)**, JLL, SGP','Mar 2022 - Present')
 st.markdown('''
 - Conveyed insights, findings to executive audiences to bolster  People Initiatives
 - Partnered with executives to understand team and provide reporting support
