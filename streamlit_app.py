@@ -99,6 +99,13 @@ st.markdown('''
 ## Work Experience
 ''')
 
+txt('**People Analytics Business Partner (People Solutions & Experience) **, JLL, SGP','Mar 2022 - Present')
+st.markdown('''
+- Conveyed insights, findings to executive audiences to bolster  People Initiatives
+- Partnered with executives to understand team and provide reporting support
+- Established reporting for Servicenow Platform using Servicenow Performance Analytics and Tableau
+''')
+
 txt('**Senior People Analytics Analyst / People Analytics Analyst**, JLL, SGP','Dec 2017 - Present')
 st.markdown('''
 - Architected and built global/ regional Tableau Dashboards to generate actionable human capital insights and metrics for JLL (Headcount of 100k) to reduce reporting time 
